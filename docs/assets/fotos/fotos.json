@@ -1,0 +1,86 @@
+{
+  "tumaco/tumaco-palafitos.jpg": {
+    "alt": "Casas de madera sobre palafitos junto a un muelle, con marea baja y un niño de espaldas con camiseta amarilla",
+    "caption": "Palafitos y muelle con marea baja",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "otros/cabana-pacifico.jpg": {
+    "alt": "Cabaña de madera con balcón y hamacas entre vegetación tropical",
+    "caption": "Cabaña entre la selva del Pacífico",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "otros/costa-pacifico.jpg": {
+    "alt": "Costa del Pacífico colombiano: selva densa y palmeras sobre una playa, vista desde el mar",
+    "caption": "Costa del Pacífico",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "otros/quibdo-choco.jpg": {
+    "alt": "Pasarela de madera sobre palafitos junto a un río en Quibdó, Chocó, con canoas en la orilla",
+    "caption": "Quibdó, Chocó",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "otros/cascada.jpg": {
+    "alt": "Cascada entre rocas cubiertas de musgo y vegetación tropical densa",
+    "caption": "Cascada entre la selva",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "cali/cali-letrero-valle.jpg": {
+    "alt": "El autor frente a la gran escultura de letras «Valle del Cauca» de la Gobernación",
+    "caption": "Valle del Cauca",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "otros/grupo-museo.jpg": {
+    "alt": "Cinco personas sentadas a una mesa en un museo, con turbantes y telas estampadas",
+    "caption": "Encuentro en el museo",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": false
+  },
+  "tumaco/tumaco-muelle.jpg": {
+    "alt": "El autor en un muelle de madera con lanchas y botes de pesca",
+    "caption": "Muelle y embarcaciones",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "tumaco/tumaco-playa-morro.jpg": {
+    "alt": "Playa de arena oscura con bañistas, sombrillas azules y un peñón cubierto de vegetación junto al mar",
+    "caption": "La playa y el peñón",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "tumaco/tumaco-playa-autor.jpg": {
+    "alt": "El autor en la playa, con el mar y un peñón cubierto de vegetación al fondo",
+    "caption": "El autor en la playa",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "tumaco/tumaco-acantilados.jpg": {
+    "alt": "Acantilados cubiertos de vegetación sobre la playa de arena oscura de Tumaco, con personas caminando al fondo",
+    "caption": "Acantilados de la playa",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "tumaco/tumaco-selfie.jpg": {
+    "alt": "Autorretrato del autor con una acompañante en la playa",
+    "caption": "En la playa",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": false
+  },
+  "tumaco/tumaco-letrero.jpg": {
+    "alt": "El autor frente al letrero de colores con el nombre de Tumaco, de noche",
+    "caption": "Letrero de Tumaco",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "portada/tumaco-acantilados.jpg": {
+    "alt": "Acantilados cubiertos de vegetación sobre la playa de arena oscura de Tumaco, con personas caminando al fondo",
+    "caption": "Tumaco: los acantilados de la playa",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  }
+}

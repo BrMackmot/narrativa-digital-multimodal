@@ -1,0 +1,378 @@
+{
+  "meta": {
+    "lang": "es",
+    "title": "¿Y si conectarse no fuera suficiente?",
+    "description": "Narrativa digital multimodal sobre brecha digital y racismo algorítmico en comunidades afrodescendientes de América Latina.",
+    "author": "Mackmot Pachotto Ambrose",
+    "program": "Maestría en Comunicación, Culturas Digitales y Visualización de Datos",
+    "university": "Universidad Santo Tomás",
+    "year": "2026"
+  },
+  "scenes": [
+    {
+      "id": "gancho",
+      "type": "hook",
+      "title": "¿Y SI CONECTARSE NO FUERA SUFICIENTE?",
+      "subtitle": "Racismo algorítmico y brecha digital en las comunidades afrodescendientes de América Latina",
+      "tagline": "Una narrativa digital sobre acceso, uso, apropiación y representación algorítmica",
+      "photo_folder": "portada",
+      "marquee": [
+        "ACCESO",
+        "USO",
+        "APROPIACIÓN",
+        "REPRESENTACIÓN",
+        "PARTICIPACIÓN",
+        "JUSTICIA EPISTÉMICA"
+      ]
+    },
+    {
+      "id": "territorio",
+      "type": "territory",
+      "title": "LA BRECHA DIGITAL TAMBIÉN TIENE TERRITORIO",
+      "text": "La desigualdad digital no ocurre en un espacio abstracto. Se experimenta en territorios concretos, con diferencias de conectividad, infraestructura, dispositivos y posibilidades de participación.",
+      "layers": [
+        {
+          "name": "ACCESO",
+          "desc": "conectividad, dispositivos, infraestructura"
+        },
+        {
+          "name": "USO",
+          "desc": "habilidades, frecuencia, uso significativo"
+        },
+        {
+          "name": "APROPIACIÓN",
+          "desc": "capacidad de producir, participar, representar y transformar"
+        }
+      ],
+      "cite": "(van Dijk, 2020)",
+      "image": "assets/img/02_mapa_pacifico.png",
+      "alt": "Mapa de Colombia con la región Pacífico resaltada y un detalle de Chocó, Valle del Cauca, Cauca y Nariño, con la ubicación de Cali, Buenaventura, Tumaco y Francisco Pizarro",
+      "credit": "Mapa: elaboración propia con límites departamentales del DANE (Marco Geoestadístico Nacional, 2018)"
+    },
+    {
+      "id": "dato",
+      "type": "data",
+      "title": "PRIMERO: ¿QUIÉN PUEDE CONECTARSE?",
+      "stats": [
+        {
+          "value": "24%",
+          "caption": "de la población no utilizaba internet a comienzos de 2024."
+        },
+        {
+          "value": "79%",
+          "caption": "de las instituciones educativas rurales sin conexión."
+        }
+      ],
+      "source": "Fuente: La Silla Vacía – Red Étnica (2025)",
+      "link": {
+        "label": "Ver fuente →",
+        "href": "https://www.lasillavacia.com/red-de-expertos/red-etnica/la-brecha-digital-tambien-es-racial/"
+      },
+      "transition": "Pero la brecha no termina con el acceso.",
+      "verify": "Confirma ambas cifras en la página original antes de publicar."
+    },
+    {
+      "id": "m2",
+      "type": "marquee",
+      "items": [
+        "¿Y SI CONECTARSE NO FUERA SUFICIENTE?",
+        "¿QUÉ DECIDE MOSTRAR EL SISTEMA?",
+        "¿QUIÉN CUENTA NUESTRA HISTORIA EN INTERNET?"
+      ],
+      "style": "accent",
+      "reverse": true,
+      "big": true
+    },
+    {
+      "id": "giro",
+      "type": "turn",
+      "title": "IMAGINEMOS QUE FINALMENTE PODEMOS CONECTARNOS.",
+      "lines": [
+        "Tenemos internet.",
+        "Tenemos un teléfono.",
+        "Tenemos acceso a inteligencia artificial."
+      ],
+      "question": "¿Ahora sí somos visibles?"
+    },
+    {
+      "id": "algoritmo",
+      "type": "algorithm",
+      "title": "¿CÓMO NOS REPRESENTA UN ALGORITMO?",
+      "text": "Los sistemas de inteligencia artificial no solo procesan información: también producen clasificaciones, imágenes, recomendaciones y formas de visibilidad.",
+      "question": "¿Qué decide mostrar el sistema y qué queda fuera de cuadro?",
+      "cite": "(Robledo Maturana, 2023; Noble, 2018)",
+      "link": {
+        "label": "Leer fuente académica →",
+        "href": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0719-36962023000200130"
+      },
+      "experiment": {
+        "title": "EXPERIMENTO: EL MISMO PEDIDO, DOS TERRITORIOS",
+        "tool": "ChatGPT",
+        "date": "28 de octubre de 2026",
+        "note": "Imágenes generadas con ChatGPT como representaciones ilustrativas; no son fotografías documentales ni evidencia representativa de los barrios. Las dos imágenes de la Prueba 1 se recortaron de una misma composición generada por IA, no de dos generaciones independientes. Se presentan como objeto de análisis, no como prueba por sí solas.",
+        "runs": [
+          {
+            "label": "Prueba 1 · Tumaco (pedido breve)",
+            "prompt": "Una fotografía de un barrio de Tumaco, Colombia",
+            "image": "assets/img/05_neutro_tumaco.jpg",
+            "alt": "Imagen generada por IA de una calle de barrio con casas bajas de madera y techos metálicos, vegetación tropical, cables aéreos, personas caminando, una motocicleta y agua al fondo",
+            "observation": "Viviendas bajas de madera y concreto con techos metálicos, calle estrecha, cables aéreos, vegetación tropical y agua al fondo. Hay personas caminando y una motocicleta."
+          },
+          {
+            "label": "Prueba 1 · Bogotá (pedido breve)",
+            "prompt": "Una fotografía de un barrio de Bogotá, Colombia",
+            "image": "assets/img/05_neutro_bogota.jpg",
+            "alt": "Imagen generada por IA de una calle en pendiente con casas de ladrillo, cables aéreos, personas caminando y una gran ciudad rodeada de montañas al fondo",
+            "observation": "Casas de ladrillo, calle pavimentada en pendiente, andenes, postes y cables aéreos. Al fondo, montañas y una ciudad muy extensa y densa."
+          },
+          {
+            "label": "Prueba 2 · Tumaco (pedido detallado)",
+            "prompt": "Generate a realistic photograph of a neighbourhood in Tumaco, Nariño, Colombia. Show colourful wooden and concrete houses with corrugated metal roofs, narrow streets, overhead electrical cables, satellite dishes, tropical vegetation, neighbours walking and interacting, a motorcyclist, and the Pacific coastal waters in the background. Use natural daylight and a documentary photography style that captures everyday community life.",
+            "image": "assets/img/05_prompt_tumaco.jpg",
+            "alt": "Imagen generada por IA de una calle costera con casas de madera de colores, un puerto al fondo, cables, una antena parabólica, personas caminando y una moto",
+            "observation": "La imagen de Tumaco generada con IA presenta un barrio costero de casas coloridas de madera y concreto, techos de zinc, calles estrechas, cables aéreos, antenas parabólicas, vegetación tropical y el mar al fondo. Los vecinos caminan por la calle y un motociclista se dirige hacia el malecón. Estos detalles crean la impresión de una comunidad viva cuya vida cotidiana está muy ligada al entorno costero. Sin embargo, la imagen también revela ausencias: no se ven escuelas, centros de salud, instituciones públicas ni personas usando teléfonos móviles. Aunque la antena parabólica y los cables sugieren alguna forma de infraestructura tecnológica, no demuestran si los residentes tienen acceso fiable a internet ni si usan tecnologías digitales en su vida diaria. La imagen ofrece, por tanto, una visión parcial del barrio y no puede establecer sus condiciones sociales o digitales reales."
+          },
+          {
+            "label": "Prueba 2 · Bogotá (pedido detallado)",
+            "prompt": "Generate a realistic photograph of a neighbourhood in Bogotá, Colombia. Show a sloping urban street lined with colourful brick and plaster houses, murals, overhead electrical cables, pedestrians, a street fruit vendor, a yellow taxi, a Colombian flag, and the densely built city with green mountains in the background. Use natural daylight and a documentary photography style that captures everyday urban life.",
+            "image": "assets/img/05_prompt_bogota.jpg",
+            "alt": "Imagen generada por IA de una calle de un barrio de Bogotá con una bandera de Colombia, un mural que dice Bogotá, estudiantes con mochilas, un taxi, un vendedor de frutas y la ciudad y el cerro al fondo",
+            "observation": "La imagen de Bogotá generada con IA muestra un barrio urbano densamente poblado, con casas de ladrillo a la vista, fachadas de colores, murales, cables eléctricos aéreos y una calle en pendiente. La presencia de peatones, un vendedor de frutas, autos, un taxi amarillo y una bandera de Colombia da a la escena una sensación de movimiento y de vida urbana cotidiana. Las montañas y el horizonte de edificios al fondo conectan el barrio con el paisaje urbano más amplio de Bogotá. No obstante, la imagen también deja invisibles aspectos importantes de la vida urbana: no muestra con claridad escuelas, servicios de salud, servicios públicos ni las formas en que los residentes acceden a las tecnologías digitales y las usan. A pesar de la infraestructura urbana y la actividad comercial, no podemos concluir que todos los residentes gocen de igual acceso a la educación, la salud, la conectividad o las oportunidades económicas. La imagen representa una impresión visual particular de Bogotá y no la complejidad completa de sus realidades sociales."
+          }
+        ],
+        "conclusion_title": "LO QUE ESTAS IMÁGENES MUESTRAN (Y LO QUE NO)",
+        "conclusion": [
+          "Con pedidos breves y paralelos (Prueba 1), las dos imágenes difieren: Tumaco aparece con vegetación tropical, casas bajas y agua al fondo; Bogotá, con ladrillo, una calle en pendiente, montañas y una ciudad extensa. En ambas hay cables aéreos y personas en actividades cotidianas.",
+          "En la Prueba 2 esos rasgos los incluí yo en el pedido, así que no pueden atribuirse a la IA. Lo que sí vale la pena notar es lo que no pedí y no apareció: escuelas, centros de salud, instituciones públicas o personas usando teléfonos.",
+          "Lo que más me interesa no es solo lo que la IA incluye, sino lo que deja fuera. La exclusión digital no puede entenderse mirando una fotografía: una antena parabólica no significa que un hogar tenga internet, ni la ausencia de un teléfono significa que sus habitantes no usen tecnologías digitales.",
+          "Entiendo estas imágenes como construcciones visuales selectivas y no como representaciones neutrales de la realidad. Un solo par de imágenes no permite afirmar un sesgo sistemático; para sostenerlo haría falta generar varias imágenes por ciudad con el mismo modelo y codificar los rasgos que aparecen. Leer críticamente estas imágenes implica preguntarse qué realidades se hacen visibles, cuáles permanecen ocultas y de quién son las experiencias que faltan."
+        ]
+      }
+    },
+    {
+      "id": "codedbias",
+      "type": "film",
+      "title": "¿PUEDE UNA MÁQUINA VER A TODOS LOS ROSTROS POR IGUAL?",
+      "text": "Coded Bias sigue la investigación de Joy Buolamwini sobre problemas de reconocimiento facial relacionados con personas negras y muestra cómo sistemas aparentemente neutrales pueden producir resultados desiguales.",
+      "keywords": [
+        "DATOS",
+        "SISTEMAS",
+        "REPRESENTACIÓN"
+      ],
+      "link": {
+        "label": "Ver Coded Bias →",
+        "href": "https://www.netflix.com/title/81328723"
+      },
+      "thumbnail": "",
+      "alt": "",
+      "credit": "",
+      "ref": "Kantayya, S. (Directora). (2020). Coded Bias [Película documental]. 7th Empire Media; Netflix."
+    },
+    {
+      "id": "voces",
+      "type": "voices",
+      "title": "SEIS VOCES PARA LEER EL PROBLEMA",
+      "text": "La curaduría reúne seis recursos con diferentes formatos y posiciones: periodismo, datos institucionales, investigación académica, documental y perspectiva afrofeminista.",
+      "gap": "Estas seis voces hablan sobre el problema. Falta la voz producida desde el propio territorio: ese es el espacio que busca ocupar OnLife Afro.",
+      "cards": [
+        {
+          "n": 1,
+          "name": "La Silla Vacía – Red Étnica",
+          "year": "2025",
+          "format": "Periodismo · expertos étnicos",
+          "axis": "Brecha de acceso",
+          "button": "Abrir fuente",
+          "href": "https://www.lasillavacia.com/red-de-expertos/red-etnica/la-brecha-digital-tambien-es-racial/",
+          "what": "Columna de opinión de la red de expertos étnicos de La Silla Vacía que sostiene que la brecha digital también es racial.",
+          "relevance": "Pone el acceso desigual en clave racial y aporta las dos cifras con las que abre la narrativa (verifícalas en la página original).",
+          "reliability": "La Silla Vacía es un medio digital colombiano de periodismo político; la columna la firman integrantes de su red de expertos étnicos.",
+          "voice_limit": "Aporta la voz de especialistas étnicos sobre el acceso. Su límite: es un texto de opinión, sin revisión por pares.",
+          "related": "Abre el eje de acceso y prepara la pregunta del giro: conectarse no basta."
+        },
+        {
+          "n": 2,
+          "name": "Katz et al., BID",
+          "year": "2024",
+          "format": "Informe institucional · datos econométricos",
+          "axis": "Acceso y uso",
+          "button": "Abrir informe",
+          "href": "https://doi.org/10.18235/0012863",
+          "what": "Informe del Banco Interamericano de Desarrollo sobre el impacto de la conectividad en hogares liderados por mujeres, pueblos indígenas y población afrodescendiente de la región.",
+          "relevance": "Ofrece evidencia regional con datos sobre quién se conecta y con qué efectos, y permite comparar a la población afrodescendiente con otros grupos.",
+          "reliability": "Lo publica una institución multilateral, con equipo de autoría identificado y DOI.",
+          "voice_limit": "Aporta la voz institucional y cuantitativa. Su límite: mide a escala regional y no recoge la experiencia vivida en territorios como Cali o Tumaco.",
+          "related": "Respalda el eje de acceso y uso, y contrasta con el relato situado de OnLife Afro."
+        },
+        {
+          "n": 3,
+          "name": "Robledo Maturana",
+          "year": "2023",
+          "format": "Artículo académico · revista indexada",
+          "axis": "Racismo algorítmico",
+          "button": "Leer artículo",
+          "href": "https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0719-36962023000200130",
+          "what": "Artículo académico que analiza la inteligencia artificial y los cuerpos racializados latinoamericanos, publicado en la revista Pléyade (SciELO Chile).",
+          "relevance": "Es el marco conceptual del racismo algorítmico desde América Latina, no solo desde el Norte global.",
+          "reliability": "Es un artículo de revista académica indexada, con autoría, referencias y acceso abierto en SciELO.",
+          "voice_limit": "Aporta la voz académica y el vocabulario crítico. Su límite: es teórico y no presenta evidencia de comunidades afrocolombianas.",
+          "related": "Sostiene el eje de representación algorítmica y dialoga con Coded Bias."
+        },
+        {
+          "n": 4,
+          "name": "Kantayya, Coded Bias",
+          "year": "2020",
+          "format": "Documental",
+          "axis": "Racismo algorítmico",
+          "button": "Ver recurso",
+          "href": "https://www.netflix.com/title/81328723",
+          "what": "Documental dirigido por Shalini Kantayya (2020) que sigue la investigación de Joy Buolamwini sobre sesgos en el reconocimiento facial.",
+          "relevance": "Muestra, con lenguaje audiovisual y accesible, que sistemas aparentemente neutrales pueden fallar de forma desigual según el rostro.",
+          "reliability": "Tiene dirección y producción identificables, y se apoya en investigadoras e investigadores que hablan desde su propio trabajo.",
+          "voice_limit": "Aporta la voz de las personas afectadas y de quienes investigan los sesgos. Su límite: es un caso de Estados Unidos y Reino Unido, y es una obra narrativa, no un estudio revisado por pares.",
+          "related": "Da la imagen más clara del racismo algorítmico y se lee junto a Robledo Maturana."
+        },
+        {
+          "n": 5,
+          "name": "Afroféminas",
+          "year": "2026",
+          "format": "Opinión afrofeminista",
+          "axis": "Apropiación",
+          "button": "Leer artículo",
+          "href": "https://afrofeminas.com/2026/03/17/cuando-el-algoritmo-discrimina-sesgos-violencias-y-resistencias-tecnologicas-desde-una-mirada-afrofeminista/",
+          "what": "Artículo de Afroféminas que mira los sesgos, las violencias y las resistencias tecnológicas desde una perspectiva afrofeminista.",
+          "relevance": "Incorpora la apropiación y la resistencia: no solo el daño, sino lo que hacen las comunidades frente a él.",
+          "reliability": "Afroféminas es un medio de comunicación afrodescendiente con trayectoria; por eso la fuente se usa como voz situada, no como estudio.",
+          "voice_limit": "Aporta la voz afrodescendiente y feminista. Su límite: es un texto de opinión que no sigue un método de investigación.",
+          "related": "Conecta la crítica de los sesgos con la propuesta de OnLife Afro."
+        },
+        {
+          "n": 6,
+          "name": "La Nación / U. de los Andes",
+          "year": "2026",
+          "format": "Periodismo sobre estudio académico",
+          "axis": "Sesgos en IA",
+          "button": "Leer estudio",
+          "href": "https://www.lanacion.com.ar/tecnologia/genero-racismo-y-xenofobia-asi-son-los-sesgos-de-la-inteligencia-artificial-en-latinoamerica-nid27022026/",
+          "what": "Nota periodística de La Nación sobre los sesgos de género, racismo y xenofobia de la inteligencia artificial en Latinoamérica.",
+          "relevance": "Muestra que el problema se está discutiendo ahora en la región y que ya llega a la prensa general.",
+          "reliability": "La Nación es un diario de referencia de Argentina; la nota se apoya en un estudio académico (verifica en la nota cuál es).",
+          "voice_limit": "Aporta la voz de la prensa regional. Su límite: resume el estudio y no reemplaza leerlo; no se centra en el Pacífico colombiano.",
+          "related": "Actualiza el debate y refuerza el eje de sesgos en IA en la región."
+        }
+      ]
+    },
+    {
+      "id": "experiencia",
+      "type": "field",
+      "title": "¿QUÉ ENCUENTRA UNA PERSONA CUANDO BUSCA SU PROPIO TERRITORIO?",
+      "text": "Esta problemática no se queda en los debates académicos. En el trabajo de campo de OnLife Afro aparecen experiencias de personas que encuentran representaciones problemáticas de sus territorios en internet.",
+      "cases": [
+        {
+          "place": "CALI",
+          "text": "Un joven de Cali cuenta que, al buscar su barrio en internet, este aparece asociado a violencia.",
+          "photo_folder": "cali"
+        },
+        {
+          "place": "TUMACO",
+          "text": "Una participante de Tumaco señala que los algoritmos a veces muestran cosas que no son la realidad.",
+          "photo_folder": "tumaco"
+        }
+      ],
+      "caveat": "Síntesis de registros de campo de OnLife Afro, anonimizados. Son dos casos: no constituyen una auditoría algorítmica, pero justifican estudiar cómo se representan los territorios.",
+      "closing": "Dos territorios. Dos experiencias. Una pregunta: ¿quién cuenta nuestra historia en internet?"
+    },
+    {
+      "id": "galeria",
+      "type": "gallery",
+      "title": "EL TERRITORIO EN IMÁGENES",
+      "text": "Imágenes de los territorios del Pacífico, cada una con su descripción y su fuente.",
+      "empty": "Agrega tus fotos en assets/fotos/<territorio>/ y descríbelas en assets/fotos/fotos.json.",
+      "territories": {
+        "portada": "Portada",
+        "cali": "Cali",
+        "tumaco": "Tumaco",
+        "buenaventura": "Buenaventura",
+        "francisco-pizarro": "Francisco Pizarro",
+        "otros": "Otros"
+      }
+    },
+    {
+      "id": "lectura",
+      "type": "analysis",
+      "title": "Contextualización y análisis crítico",
+      "min_words": 400,
+      "max_words": 500,
+      "paragraphs": [
+        "La conversación sobre inclusión digital suele detenerse en el acceso: quién tiene conexión y quién no. La Silla Vacía – Red Étnica (2025) sostiene que esa brecha también es racial, y Katz et al. (2024) estudian cómo la conectividad incide en los hogares liderados por mujeres, pueblos indígenas y población afrodescendiente de América Latina y el Caribe. Pero conectarse es solo la primera puerta. Esta narrativa propone leer el problema en cuatro niveles (acceso, uso, apropiación y representación), porque una comunidad puede estar conectada y, aun así, quedar mal representada por los sistemas que organizan lo que internet muestra.",
+        "Las demás fuentes desplazan la mirada del acceso al algoritmo. Coded Bias (Kantayya, 2020) sigue el trabajo de Joy Buolamwini para mostrar que los sistemas de reconocimiento facial fallan más con rostros de piel oscura. Robledo Maturana (2023) lleva esa discusión a los cuerpos racializados latinoamericanos, y La Nación (2026) y Afroféminas (2026) examinan sesgos de género, raza y xenofobia en la inteligencia artificial de la región; la segunda añade formas de resistencia afrofeminista. Existe, sin embargo, una tensión: estas fuentes hablan sobre todo de sesgos en sistemas y datos, mientras que casi no recogen cómo los viven comunidades concretas del Pacífico colombiano. Esa ausencia es la que intenta mirar el trabajo de campo.",
+        "En el trabajo de campo de OnLife Afro, un joven de Cali contó que, al buscar su barrio en internet, este aparece asociado a violencia; una participante de Tumaco señaló que los algoritmos a veces muestran cosas que no son la realidad. Son dos testimonios, no una auditoría algorítmica, y no permiten generalizar. Lo que sí hacen es darle un rostro cotidiano a lo que los textos describen en abstracto: la representación de un territorio no es solo un problema técnico, sino algo que una persona encuentra al buscar el lugar donde vive.",
+        "Mi posición es que la brecha digital y el racismo algorítmico no son problemas separados. La primera decide quién entra a internet; el segundo, cómo aparece quien entra. Si solo se amplía la conectividad, se corre el riesgo de conectar a las comunidades a un espacio que ya las describe desde fuera. De ahí una consecuencia: las políticas de inclusión digital deberían incluir la revisión de cómo se representan los territorios y la participación de las propias comunidades en la producción de sus datos. Esa es la apuesta de OnLife Afro y de mi tesis desde la justicia epistémica: que quienes viven el territorio sean quienes lo narren. Queda una pregunta abierta que mi evidencia no resuelve: ¿cómo medir esa distorsión de forma sistemática sin convertir otra vez a las comunidades en objeto de estudio?"
+      ]
+    },
+    {
+      "id": "onlifeafro",
+      "type": "response",
+      "title": "¿Y SI LAS COMUNIDADES PUDIERAN CONTAR SU PROPIA HISTORIA?",
+      "text": "OnLife Afro es una propuesta situada frente a la invisibilidad y la representación digital: un espacio para articular datos, territorio, experiencias y narrativas afrodescendientes.",
+      "steps": [
+        "DATOS",
+        "TERRITORIO",
+        "VOCES"
+      ],
+      "link": {
+        "label": "Explorar OnLife Afro →",
+        "href": "https://www.onlifeafro.org"
+      },
+      "limit": "OnLife Afro no resuelve por sí sola el racismo algorítmico; es un instrumento de visibilización y participación.",
+      "image": "assets/img/10_onlife_afro_interface.png",
+      "alt": "Página de inicio de OnLife Afro: barra de navegación (Inicio, Historia, DatoAfro, Territorios, Acción, Comunidad), el lema «La voz de nuestros territorios», las cifras de la plataforma y el panel de mareas de la costa",
+      "credit": "Captura de pantalla de www.onlifeafro.org (28 de octubre de 2026): elaboración propia"
+    },
+    {
+      "id": "cierre",
+      "type": "closing",
+      "title": "¿QUIÉN DECIDE QUÉ ES VISIBLE?",
+      "lines": [
+        "Los datos.",
+        "Los medios.",
+        "Los algoritmos.",
+        "Las plataformas.",
+        "Pero también las comunidades."
+      ],
+      "last": "Contar también es disputar la representación.",
+      "buttons": [
+        {
+          "label": "Explorar las fuentes →",
+          "href": "#voces"
+        },
+        {
+          "label": "Conocer OnLife Afro →",
+          "href": "https://www.onlifeafro.org"
+        },
+        {
+          "label": "Volver al inicio ↑",
+          "href": "#gancho"
+        }
+      ]
+    },
+    {
+      "id": "fuentes",
+      "type": "sources",
+      "title": "TRANSPARENCIA Y FUENTES",
+      "text": "Los recursos se presentan con referencias en APA 7.ª edición y con enlace a la fuente original. Los registros de campo de OnLife Afro se usan anonimizados y respetando los criterios éticos de la investigación.",
+      "references": [
+        "Afroféminas. (2026, 17 de marzo). *Cuando el algoritmo discrimina: sesgos, violencias y resistencias tecnológicas desde una mirada afrofeminista*. https://afrofeminas.com/2026/03/17/cuando-el-algoritmo-discrimina-sesgos-violencias-y-resistencias-tecnologicas-desde-una-mirada-afrofeminista/",
+        "Kantayya, S. (Directora). (2020). *Coded Bias* [Película documental]. 7th Empire Media; Netflix. https://www.netflix.com/title/81328723",
+        "Katz, R., Callorda, F., Puig Gabarró, P., García Zaballos, A., Iglesias Rodríguez, E., y Dalio, M. (2024). *Impacto de la conectividad digital en hogares liderados por mujeres, individuos pertenecientes a pueblos indígenas o afrodescendientes en América Latina y el Caribe*. Banco Interamericano de Desarrollo. https://doi.org/10.18235/0012863",
+        "La Nación. (2026, 27 de febrero). *Género, racismo y xenofobia: así son los sesgos de la inteligencia artificial en Latinoamérica*. https://www.lanacion.com.ar/tecnologia/genero-racismo-y-xenofobia-asi-son-los-sesgos-de-la-inteligencia-artificial-en-latinoamerica-nid27022026/",
+        "La Silla Vacía – Red Étnica. (2025). *La brecha digital también es racial*. https://www.lasillavacia.com/red-de-expertos/red-etnica/la-brecha-digital-tambien-es-racial/",
+        "Noble, S. U. (2018). *Algorithms of oppression: How search engines reinforce racism*. New York University Press.",
+        "Robledo Maturana, R. (2023). Los condenados del algoritmo. Inteligencia artificial y cuerpos racializados latinoamericanos. *Pléyade*, *(32)*. https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0719-36962023000200130",
+        "van Dijk, J. (2020). *The digital divide*. Polity Press."
+      ],
+      "credits": "Fotografías de Tumaco, Cali y demás territorios: Mackmot Pachotto Ambrose (archivo personal). Mapa: elaboración propia con datos del DANE. Captura de OnLife Afro: elaboración propia. Imágenes del experimento: generadas con ChatGPT.",
+      "ai_note": "",
+      "ai_note_guardada": "Usé Claude (Anthropic) como apoyo en el desarrollo del sitio (código HTML, CSS y Python, y el mapa), en la estructura a partir de la rúbrica, en un primer borrador de los textos de análisis y de las fichas de las fuentes, y en la traducción al español de mis lecturas del experimento. La selección del tema y de las fuentes, las fotografías, el experimento con ChatGPT y las lecturas de las imágenes son de mi autoría."
+    }
+  ]
+}

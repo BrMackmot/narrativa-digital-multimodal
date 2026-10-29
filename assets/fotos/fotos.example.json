@@ -1,0 +1,14 @@
+{
+  "cali/barrio-calle-01.jpg": {
+    "alt": "Calle de un barrio de Cali con casas de dos pisos y un mural",
+    "caption": "Barrio de Cali, 2026",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  },
+  "tumaco/muelle-01.jpg": {
+    "alt": "Muelle de madera en Tumaco al atardecer",
+    "caption": "Muelle de Tumaco",
+    "credit": "Foto: Mackmot Pachotto Ambrose",
+    "consent": true
+  }
+}
